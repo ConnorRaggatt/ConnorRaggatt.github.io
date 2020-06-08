@@ -1,0 +1,210 @@
+.decheader{
+    width: 110%;
+    padding: 0px;
+    margin: -5px -5px 0px -5%;
+    align-content: center;
+    border-style: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.img{
+    border-style: none;
+    margin-left:-40px;
+    margin-top:-5px;
+}
+
+.welcome {
+    width: 100%;
+    place-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top:-50%;
+}
+
+.body{
+    margin:0px;
+    padding: 0px;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.parent{
+    width: 75%;
+    margin-left:32%;
+    margin-right: 0px;
+    margin-top:0%;
+    margin-bottom:0px;
+    height:100%;
+    position: absolute; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.child{
+    width:85%;
+    margin-left:15%;
+    margin-right: 15%;
+    padding-right:15%;
+    padding-top:20%;
+    height: 1200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    z-index: -2;
+}
+
+.child p{
+    margin-right:30%;
+}
+
+.photo_div{
+    width:100%;
+    height:20%;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.photo{
+    border-radius: 50%;
+    height:100%;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
+    align-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sideinfo{
+    height: 100%;
+    width: 32%;
+
+    background-color: rgba(192, 217, 224, 0.5);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 101;
+}
+
+.sideinfo_text{
+    height: 80%;
+    width: 32%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: fixed;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+
+.name{
+    font-weight: bold;
+    font-size: 60px;
+    justify-content: center;
+    margin-block-start: 5px;
+    margin-block-end: 10px;
+}
+
+.description{
+    font-size: 20px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.description2{
+    font-size: 15px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.sideinfo_text p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} 
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -2;
+}
+.subheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: -2;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -2;
+}
+
+.year{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: -2;
+}
+
+.sideinfo_nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+
+}
+
+.sideinfo_nav a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.sideinfo_nav a p{
+    display: inline-block;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.sideinfo_nav a:hover{
+    background-color: rgba(87, 117, 126, 0.801);
+    color: white;
+}
+
+.list_icon{
+    height:40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mail{
+    height: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resume_table{
+    width: 65%;
+}
+
+.key_skills{
+    width: 75%;
+}

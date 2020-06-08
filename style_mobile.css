@@ -1,0 +1,205 @@
+.decheader{
+    width: 120%;
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.img{
+    border-style: none;
+    margin-left:-30px;
+    margin-top:-5px;
+}
+
+
+.body{
+    margin:0px;
+    padding: 0px;
+    width:100%;
+    height:100%;
+}
+
+.parent{
+    width: 110%;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top:0%;
+    margin-bottom:20px;
+    padding-bottom: 100px;
+    height:100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.child{
+    width:85%;
+    margin-left:12%;
+    margin-right: 0%;
+    margin-top:40px;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: -2;
+}
+
+.child p{
+    margin-right:30%;
+}
+
+.photo_div{
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 60%;
+    overflow: hidden;
+    object-fit: cover;
+    align-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.sideinfo{
+    height: 100%;
+    width: 120%;
+
+    background-color: rgba(192, 217, 224, 0.5);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 101;
+}
+
+.sideinfo_text{
+    padding-bottom: 5%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+
+.name{
+    font-weight: bold;
+    font-size: 120px;
+    justify-content: center;
+    margin-block-start: 5px;
+    margin-block-end: 10px;
+}
+
+.description{
+    font-size: 40px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.description2{
+    font-size: 30px;
+    margin-block-start: 5px;
+    margin-block-end: 40px;
+}
+
+.sideinfo_text p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} 
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -2;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.subheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: -2;
+    font-size: 20px;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -2;
+    font-size: 20px;
+}
+
+.year{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: -2;
+    font-size: 25px;
+    vertical-align: top;
+    padding-top: 1em;
+}
+
+.sideinfo_nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+
+}
+
+.sideinfo_nav a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 40px;
+}
+
+.sideinfo_nav a p{
+    display: inline-block;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top:0.5em !important;
+    margin-bottom: 0.5em !important;
+
+}
+
+.sideinfo_nav a:hover{
+    background-color: rgba(87, 117, 126, 0.801);
+    color: white;
+}
+
+.list_icon{
+    height:40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mail{
+    height: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resume_table{
+    width: 100%;
+}
+
+p.heading{
+    font-size: 40px;
+}
