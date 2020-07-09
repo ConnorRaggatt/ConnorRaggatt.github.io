@@ -1,29 +1,29 @@
-.decheader{
-    width: 120%;
-    padding: 0px;
-    margin: 0px;
-    border-style: none;
-    overflow: hidden;
-    position: absolute;
-    z-index: 100;
-}
-
-.img{
-    border-style: none;
-    margin-left:-30px;
-    margin-top:-5px;
-}
-
-
 .body{
     margin:0px;
     padding: 0px;
     width:100%;
     height:100%;
+    overflow-x: hidden;
+}
+
+.decheader{
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    align-content: center;
+    border-style: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+.header_img{
+    border-style: none;
+    margin-left:-30px;
+    margin-top:-5px;
 }
 
 .parent{
-    width: 110%;
+    width: 100%;
     margin-left:0px;
     margin-right: 0px;
     margin-top:0%;
@@ -35,9 +35,9 @@
 }
 
 .child{
-    width:85%;
-    margin-left:12%;
-    margin-right: 0%;
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
     margin-top:40px;
     height: 100%;
     overflow: scroll;
@@ -46,7 +46,7 @@
 }
 
 .child p{
-    margin-right:30%;
+    margin-right:0%;
 }
 
 .photo_div{
@@ -73,7 +73,7 @@
 
 .sideinfo{
     height: 100%;
-    width: 120%;
+    width: 100%;
 
     background-color: rgba(192, 217, 224, 0.5);
     overflow-x: hidden;
@@ -82,6 +82,7 @@
 }
 
 .sideinfo_text{
+    width: 100%;
     padding-bottom: 5%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -112,7 +113,7 @@
 }
 
 .sideinfo_text p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
 } 
 
@@ -120,33 +121,70 @@
     font-size: 20px;
     font-weight: bold;
     border-bottom: solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     z-index: -2;
     width: 100%;
     margin: 10px 0px 0px 0px;
 }
 .subheading{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     z-index: -2;
+    font-size: 15px;
+    text-align: left;
+}
+
+.table_subheading{
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
+    font-weight: bold;
+    z-index: -2;
+    text-align: left;
 }
 
 .content{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
     z-index: -2;
-    font-size: 20px;
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+.table_content{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    text-emphasis: none;
+    z-index: -2;
+    font-size: 18px;
+    margin-left: 0%;
+}
+
+
+.skill_content{
+    font-family: 'Roboto Slab', serif;
+    z-index: -2;
+    font-size: 15px;
+    margin-left: 1.5%;
 }
 
 .year{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     z-index: -2;
-    font-size: 25px;
+    font-size: 30px;
+    vertical-align: top;
+    padding-top: 2em;
+    width: 25%;
+}
+
+.detail{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    z-index: -2;
     vertical-align: top;
     padding-top: 1em;
+    width: 75%;
 }
 
 .sideinfo_nav{
@@ -162,7 +200,7 @@
     width: 100%;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
     margin-top: 0px;
     margin-bottom:0px;
