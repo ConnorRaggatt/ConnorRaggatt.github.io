@@ -56,7 +56,7 @@ div.gallery img {
 div.title{
     padding: 15px 15px 5px 15px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@ div.title{
 div.date{
     padding: 5px 15px 5px 15px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: rgb(116, 116, 116);
     text-decoration: none;
 }
@@ -72,12 +72,12 @@ div.date{
 div.description {
     padding: 5px 15px 5px 15px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
 }
 
 .subsection_header{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
     font-weight: bold;
 }
