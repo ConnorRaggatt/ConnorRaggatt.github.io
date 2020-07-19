@@ -38,9 +38,9 @@ body{
 
 div.gallery {
     padding: 5%;
-    float: left;
+    float: right;
     width: 40%;
-    height: 400px;
+    height: 100%;
 }
 
 div.gallery:hover {
