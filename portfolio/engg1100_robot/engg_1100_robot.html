@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1000px)" href="style_mobile.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 1001px)" href="style.css" />
     <title>ENGG1100 Robot - Connor Raggatt</title>
@@ -16,7 +17,41 @@
     
     <div class="navbar_parent">
         <div class="navbar">
-            <p class="subsection_header">Section Under Construction</p>
+
+            <img src="./20180531_142838.jpg" style="max-width: 50%; min-width: 500px ; display: block; margin: auto;" >
+
+            <p class="project_title">ENGG1100 - First Year Team Project - Search and Rescue Robot</p>
+            <p class="paragraph">
+                UQ’s ENGG1100 is the very first course that all engineering students at the university take. Our team chose 
+                to partake in the search and rescue robot project. The task was to create a robot using the Arduino Uno that 
+                would search a test field for small magnetic plates that may or may not be magnetically charged. If the plate 
+                was charged, representing a “phone signal” of someone trapped under rubble, the robot would need to dispense 
+                a flag on top so that search and rescue teams could quickly find the tapped person. A video of our robot in 
+                operation is shown below.
+            </p>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vIq8vzb7x_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+
+            <p class="paragraph">
+                Unfortunately, on the day our robot had one of its hall effect sensors broken which meant we were reduced to only half the detection 
+                capability we could have had. As a result, the robot successfully detected one target but failed to find another before the allocated 
+                testing time expired. 
+            </p>
+
+            <p class="subsection_header">My Contributions</p>
+            <p class="paragraph">
+                For this project, I contributed some small parts of the code mainly related to driving around, the start button (which had to choose 
+                between the two operation modes, normal and demonstration) and obstacle detection. In addition to this, I designed the flags, and the 
+                mechanism we used to drop them. The design used two servos, one to release the flags and the other to control the position of where 
+                the flag would be dropped. This design allowed us to precisely drop the flag on the desired location without having to move the entire 
+                robot. As the drive wheels were uncensored, we could not precisely control the movement of the whole vehicle, which necessitated this 
+                design. 
+            </p>
+
+            </p>
         </div>   
     </div>
 

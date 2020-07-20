@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1000px)" href="style_mobile.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 1001px)" href="style.css" />
-    <title>METR2800 Robot - Connor Raggatt</title>
+    <title>ENGG1100 Robot - Connor Raggatt</title>
     <link rel="icon" href="icon.png">
 
 </head>
@@ -18,17 +18,19 @@
     <div class="navbar_parent">
         <div class="navbar">
 
-            <img src="./CAD_render.PNG" style="max-width: 50%; min-width: 500px ; display: block; margin: auto;" >
+            <img src="./20180531_142838.jpg" style="max-width: 50%; min-width: 500px ; display: block; margin: auto;" >
 
-            <p class="project_title">METR2800 - Mechatronic Deisgn Project 1 - "Killer Satellite"</p>
+            <p class="project_title">ENGG1100 - First Year Team Project - Search and Rescue Robot</p>
             <p class="paragraph">
-                The challenge given in METR2800 was to design and build a robot that would make use of a reaction wheel 
-                (flywheel) to rotate itself and fire a laser at active infrared targets. The robot had to first locate 
-                the position of the active target, then fire the laser at it for 3 seconds. Targets had different zones 
-                worth different points (10 for a bullseye, then a 5-point and a 1-point zone) and the points awarded 
-                would be the minimum of the zones the laser touched while it was on (i.e. you couldn’t strafe across 
-                the target). 
+                UQ’s ENGG1100 is the very first course that all engineering students at the university take. Our team chose 
+                to partake in the search and rescue robot project. The task was to create a robot using the Arduino Uno that 
+                would search a test field for small magnetic plates that may or may not be magnetically charged. If the plate 
+                was charged, representing a “phone signal” of someone trapped under rubble, the robot would need to dispense 
+                a flag on top so that search and rescue teams could quickly find the tapped person. A video of our robot in 
+                operation is shown below.
             </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vIq8vzb7x_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <p class="paragraph">
                 The robot had to use a flywheel to turn left and right but was able to use a servo for up and down aiming 
@@ -36,10 +38,6 @@
                 used had to be from the Atmel AVR family. This ruled out the use of boards such as the Arduino and all but 
                 necessitated that the circuit board for the project needed to be specially designed. 
             </p>
-
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YiiqElGKbYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
 
             <p class="subsection_header">My Contributions</p>
             <p class="subsubsection_header">Early CAD design and keeping the CAD files updated</p>
@@ -89,7 +87,6 @@
                 If there were peaks and troughs present that differed to the mean by a given threshold, this would indicate the presence of a 
                 target. 
             </p>
-
         </div>   
     </div>
 
