@@ -49,7 +49,7 @@
     margin-right: 15%;
     padding-right:15%;
     padding-top:20%;
-    height: 100%;
+    height: 120%;
     overflow: hidden;
     overflow-x: hidden;
     z-index: -2;
@@ -240,4 +240,20 @@
 
 .key_skills{
     width: 75%;
+}
+
+@media (max-height: 800px) {
+    .sideinfo{
+        overflow-y: scroll;
+    }
+
+    .sideinfo_text{
+        overflow-y: scroll;
+        height: 70%;
+    }
+
+    .child{
+        height: 200%;
+    }
+
 }
